@@ -3,3 +3,6 @@
 .coursework{margin-top:28px}footer a{display:inline-block}
 
 .project{grid-template-columns:280px minmax(0,1fr);gap:36px;align-items:start}.project-preview{display:block;margin-top:3px}.project-preview img{display:block;width:100%;height:auto;aspect-ratio:5/3;object-fit:cover;border:1px solid #e2e5e2;border-radius:3px}.project-copy h2{margin-bottom:16px}.project-copy .category{margin-bottom:8px}@media(max-width:760px){.project-preview{max-width:400px;margin:0 0 24px}.project-copy p{margin-top:0}}
+
+/* Keep navigation visible while reading either page. */
+.site-header{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 0 0 24px #fff}
